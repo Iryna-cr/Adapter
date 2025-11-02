@@ -6,7 +6,7 @@ class ForeignPaymentSystem
     public void MakeForeignPay() => Console.WriteLine("Оплата через зовнішній сервіс");
 }
 
-// Наш адаптер
+//адаптер
 class PaymentAdapter
 {
     private ForeignPaymentSystem foreign = new ForeignPaymentSystem();
